@@ -4,10 +4,10 @@ from tweepy import OAuthHandler
 from textblob import TextBlob
 class TwitterClient(object):
     def __init__(self): 
-        consumer_key = 'gMWadfLq6xqfSaZ3MwU6wCRKr'
-        consumer_secret = 'bNO86F6RbfQ5GJhzn8L5n5JMU5edUEemXcoGSkYrGBKB9kE0R0'
-        access_token = '2184272348-OWbHhav2A16bapjkktWDxX3BvvVBjx0QrJKz8j8'
-        access_token_secret = 'Ovbh6az92iCU7ZoX9gKJ2R64g4ssfLTQH8jloLvO66wsX'
+        consumer_key = '#Enter your consumer_key'
+        consumer_secret = '#Enter your consumer_secret_key'
+        access_token = '#Enter your access_token'
+        access_token_secret = '#Enter your access_token_secret'
         try: 
             self.auth = OAuthHandler(consumer_key, consumer_secret) 
             self.auth.set_access_token(access_token, access_token_secret) 
